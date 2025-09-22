@@ -1,0 +1,48 @@
+# Node
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.*
+
+# IDE/editor
+.vscode/
+.DS_Store
+*.swp
+
+# OS
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Misc
+*.local
+*.sublime-workspace
+
+# Supabase
+.supabase/
+
+# Data
+/data/message_queue.json
+
+# Python (if any)
+__pycache__/
+*.pyc
+
+# Jupyter (if any)
+.ipynb_checkpoints/
+
+
+# Tests
+__tests__/
+
+data/

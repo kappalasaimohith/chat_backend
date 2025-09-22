@@ -1,0 +1,43 @@
+{
+  "name": "chat-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node --watch start-dev.js",
+    "dev:server": "node start-dev.js",
+    "server": "node server.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:server": "node test-server.js",
+    "test:ws": "node test-websocket.js",
+    "test:messaging": "node test-messaging.js",
+    "test:chat-creation": "node test-chat-creation.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.55.0",
+    "cors": "^2.8.5",
+    "cors-headers": "^1.0.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.16.3",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0",
+    "ws": "^8.18.3"
+  },
+  "keywords": [
+    "chat",
+    "realtime",
+    "websocket",
+    "supabase"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Realtime chat backend with WebSocket and Supabase integration",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
